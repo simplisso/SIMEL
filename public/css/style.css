@@ -55,4 +55,5 @@ ul { list-style: none; }
     .nav-list { display: none; flex-direction: column; width: 100%; }
     .nav-list.is-open { display: flex; }
     .whatsapp-float span { display: none; }
+
 }
