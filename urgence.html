@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URGENCE 24h/7 | SIMEL S.E.S</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .urgence-card {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(229, 62, 62, 0.2);
+            border: 2px solid var(--accent);
+            max-width: 600px;
+            margin: 40px auto;
+        }
+        .pulse-icon {
+            font-size: 4rem;
+            color: var(--accent);
+            animation: pulse 1.5s infinite;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); opacity: 1; }
+            50% { transform: scale(1.1); opacity: 0.7; }
+            100% { transform: scale(1); opacity: 1; }
+        }
+        .btn-call {
+            display: block;
+            background: var(--accent);
+            color: white !important;
+            font-size: 1.5rem;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 25px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container">
+            <div class="header-top">
+                <a href="index.html" class="logo"><i class="fas fa-bolt"></i> SIMEL S.E.S</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="urgence-card">
+            <i class="fas fa-phone-alt pulse-icon"></i>
+            <h1 style="color: var(--primary); margin: 20px 0;">Service de Dépannage</h1>
+            <p>Une panne électrique ? Un court-circuit ? Une climatisation en arrêt ?</p>
+            <p><strong>Nos techniciens interviennent 24h/24 et 7j/7 à Cotonou et environs.</strong></p>
+            
+            <a href="tel:+22900000000" class="btn-call">
+                <i class="fas fa-phone-volume"></i> APPELER MAINTENANT
+            </a>
+            
+            <p style="margin-top: 20px; font-size: 0.9rem; color: #718096;">
+                Intervention garantie sous 2 heures pour les urgences critiques.
+            </p>
+        </div>
+
+        <section style="margin-top: 40px; text-align: center;">
+            <h2 style="margin-bottom: 30px;">Nos domaines d'intervention urgente :</h2>
+            <div class="annonces-grid" style="gap: 15px;">
+                <div class="annonce-card"><div class="card-content"><h4>Court-circuit & Panne totale</h4></div></div>
+                <div class="annonce-card"><div class="card-content"><h4>Panne d'onduleur Solaire</h4></div></div>
+                <div class="annonce-card"><div class="card-content"><h4>Fuite de gaz clim / Frigo</h4></div></div>
+                <div class="annonce-card"><div class="card-content"><h4>Alarme / Vidéo défaillante</h4></div></div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container" style="text-align: center;">
+            <p>&copy; 2025 SIMEL S.E.S - Unité d'intervention rapide</p>
+            <a href="index.html" style="color: white; text-decoration: underline; margin-top: 10px; display: inline-block;">Retour à l'accueil</a>
+        </div>
+    </footer>
+
+</body>
+</html>
