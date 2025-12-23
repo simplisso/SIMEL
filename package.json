@@ -1,0 +1,12 @@
+{
+  "name": "simel-ses-backend",
+  "version": "1.0.0",
+  "description": "Backend pour SIMEL S.E.S",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
